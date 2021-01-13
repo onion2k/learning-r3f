@@ -1,0 +1,22 @@
+{
+  "name": "learning-r3f",
+  "version": "0.0.0",
+  "description": "A set of react-three-fiber examples",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onion2k/learning-r3f.git"
+  },
+  "author": "Chris Neale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onion2k/learning-r3f/issues"
+  },
+  "homepage": "https://github.com/onion2k/learning-r3f#readme"
+}
