@@ -1,24 +1,25 @@
 ---
-name: Basic Cube
-menu: Geometries
+name: Wireframe
+menu: Materials
 ---
 
 import { Sandbox } from '../../components/Sandbox'
 
-# A basic cube
+# Wireframe
 
-An example of a single cube, with a red material, rotated by 45 degrees.
+A basic cube, but this time rendered as a wireframe. Note the addition of the `wireframe` prop in the lineBasicMaterial component.
 
 ```js
 import React from "react";
 import { render } from "react-dom";
 import { Canvas } from "react-three-fiber";
+import "./styles.css";
 
 const Box = () => {
   return (
     <mesh rotation-x={Math.PI * 0.25} rotation-y={Math.PI * 0.25}>
-      <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color={"red"} />
+      <boxBufferGeometry args={[2, 2, 2]} />
+      <lineBasicMaterial color={"yellow"} wireframe />
     </mesh>
   );
 };
@@ -33,8 +34,9 @@ const App = () => {
 };
 
 render(<App />, document.getElementById("root"));
+
 ```
 
 ### Working example (You can edit this code.)
 
-<Sandbox url="minimal-cube-example-n71si" />
+<Sandbox url="minimal-cube-example-wireframe-j7dou" />
