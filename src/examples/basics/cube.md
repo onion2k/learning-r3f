@@ -1,10 +1,20 @@
+---
+name: Basic Cube
+menu: Basics
+---
+
+# A cube
+
+An example of a single cube, with a red material, pointing at the camera.
+
+```js
 import React from "react";
 import { render } from "react-dom";
 import { Canvas } from "react-three-fiber";
 
 const Box = () => {
   return (
-    <mesh rotation-x={Math.PI * 0.25} rotation-y={Math.PI * 0.25}>
+    <mesh>
       <boxGeometry args={[2, 2, 2]} />
       <meshStandardMaterial color={"red"} />
     </mesh>
@@ -21,3 +31,4 @@ const App = () => {
 };
 
 render(<App />, document.getElementById("root"));
+```
