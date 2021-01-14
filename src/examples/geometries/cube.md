@@ -1,7 +1,9 @@
 ---
 name: Basic Cube
-menu: Basics
+menu: Geometries
 ---
+
+import { Sandbox } from '../../components/Sandbox'
 
 # A cube
 
@@ -32,3 +34,5 @@ const App = () => {
 
 render(<App />, document.getElementById("root"));
 ```
+
+<Sandbox url="minimal-cube-example-n71si" />

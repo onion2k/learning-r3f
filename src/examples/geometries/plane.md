@@ -1,6 +1,6 @@
 ---
 name: Basic Plane
-menu: Basics
+menu: Geometries
 ---
 
 A plane...

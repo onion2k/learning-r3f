@@ -1,6 +1,6 @@
 ---
 name: Basic Sphere
-menu: Basics
+menu: Geometries
 ---
 
 A Sphere
