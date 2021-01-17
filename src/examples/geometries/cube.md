@@ -17,7 +17,7 @@ import { Canvas } from "react-three-fiber";
 const Box = () => {
   return (
     <mesh rotation-x={Math.PI * 0.25} rotation-y={Math.PI * 0.25}>
-      <boxGeometry args={[2, 2, 2]} />
+      <boxBufferGeometry args={[2, 2, 2]} />
       <meshStandardMaterial color={"red"} />
     </mesh>
   );

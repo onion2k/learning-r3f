@@ -5,7 +5,7 @@ menu: Cameras
 
 import { Sandbox } from '../../components/Sandbox'
 
-# A basic cube
+# An orthographic projection camera
 
 A simple orthographic projection (flat 3D instead of perspective) camera. This is useful for 2D games and UIs.
 
