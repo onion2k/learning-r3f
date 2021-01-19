@@ -4,6 +4,7 @@ menu: Geometries
 ---
 
 import { Sandbox } from '../../components/Sandbox'
+
 # A basic Sphere
 
 A simple sphere geometry.

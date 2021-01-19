@@ -4,6 +4,7 @@ menu: Geometries
 ---
 
 import { Sandbox } from '../../components/Sandbox'
+
 # A basic plane
 
 A basic plane geometry. Note that in this example the plane has no 'height', so it's necessary to move the camera in order to see it, by adding `camera={{ position: [0, 15, 15] }}` to the Canvas component.
