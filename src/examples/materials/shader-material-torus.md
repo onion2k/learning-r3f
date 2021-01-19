@@ -1,5 +1,5 @@
 ---
-name: Shader Material 2
+name: Shaded Torus
 menu: Materials
 ---
 
